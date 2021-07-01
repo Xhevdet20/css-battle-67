@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 300px;
+	width: 400px;
+	position: relative;
+	background: #5dbcf9;
+	overflow: hidden;
+}
+
+.a {
+	height: 110px;
+	width: 140px;
+	position: absolute;
+	background: #191919;
+	top: 70px;
+	left: 55px;
+	box-shadow: -150px -100px #191919, -150px 50px #191919, -150px 200px #191919,
+		0 -150px #191919, 0 150px #191919, 150px -100px #191919, 150px 50px #191919,
+		150px 200px #191919, 300px -150px #191919, 300px 0px #191919,
+		300px 150px #191919;
+}
